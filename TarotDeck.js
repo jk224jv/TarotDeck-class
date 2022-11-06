@@ -720,4 +720,15 @@ export class tarotDeck {
         template: cardTemplate
       }
     }
+
+    /**
+     * Restores desk to initial state. "Puts back" all the cards.
+     */
+     resetDeck() {
+      this.#unUsedCards = []
+      for (let i = 1; i < 79; i++) {
+        this.#unUsedCards.push(i)
+      }
+      this.#usedCards = []
+     }
   }
