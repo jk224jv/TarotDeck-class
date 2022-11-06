@@ -648,7 +648,6 @@ export class tarotDeck {
       for (let cardNr = 0; cardNr < cardsToPull; cardNr++) {
         tarotCards.push(this.#objektifyCard(pulledCards[cardNr]))
       }
-      console.log(tarotCards)
       return tarotCards
     }
   }
