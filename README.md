@@ -1,7 +1,7 @@
 # TarotDeck-class
-###A javascript-class that makes random tarotcard objects. 
-###Complete with card symbolism.
-####Methods
+### A javascript-class that makes random tarotcard objects. 
+### Complete with card symbolism.
+#### Methods
 ```
 .pullcards(x)
 ```
@@ -12,7 +12,7 @@ Returns false if the deck does not have enough cards.
 ```
 restores the deck to initial state, ie, all cards are "put back" in the deck.
 
-####Usage:
+#### Usage:
 ```
 import { tarotDeck } from './TarotDeck.js'
 
@@ -20,7 +20,7 @@ const deck = new tarotDeck()
 console.log(deck.pullCards(1))
 ```
 
-####Output:
+#### Output:
 ```
 [
   {
@@ -32,7 +32,7 @@ console.log(deck.pullCards(1))
 ]
 ```
 
-####Usage:
+#### Usage:
 ```
 import { tarotDeck } from './TarotDeck.js'
 
@@ -40,7 +40,7 @@ const deck = new tarotDeck()
 console.log(deck.pullCards(3))
 ```
 
-####Output:
+#### Output:
 ```
 [
   {
@@ -64,7 +64,7 @@ console.log(deck.pullCards(3))
 ]
 ```
 
-####Usage:
+#### Usage:
 ```
 import { tarotDeck } from './TarotDeck.js'
 
@@ -72,7 +72,7 @@ const deck = new tarotDeck()
 console.log(deck.pullCards(79))
 ```
 
-####Output:
+#### Output:
 ```
 false
 ```
